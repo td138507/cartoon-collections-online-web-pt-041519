@@ -1,15 +1,5 @@
 def roll_call_dwarves(names)# code an argument here
-  i = 0
-  while i < names.length
-    yield(names[i])
-    i += 1
-  end
-  names
-    puts each_with_index
-end
-
-names = ["Doc", "Dopey", "Bashful", "Grumpy"]
-
+  names.each_with_index {|name,index| puts "#{index +1} #{name}"}
 end
 
 def summon_captain_planet# code an argument here
