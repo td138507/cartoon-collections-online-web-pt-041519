@@ -9,9 +9,9 @@ def roll_call_dwarves(names)# code an argument here
 end
 
 names = ["Doc", "Dopey", "Bashful", "Grumpy"]
-  
 
-    
+
+
 end
 
 def summon_captain_planet# code an argument here
