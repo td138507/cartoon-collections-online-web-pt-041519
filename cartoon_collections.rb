@@ -7,9 +7,11 @@ def summon_captain_planet(array)# code an argument here
   array.collect {|call| call.capitalize + "!"}
 end
 
-def long_planeteer_calls(array_of_calls)# code an argument here
+def long_planeteer_calls(planteer)# code an argument here
   # Your code here
-  array_of_calls.any? {|word| word.lenth > 4}
+  planteer.any? do |call|
+    call.length > 4
+  end
 end
 
 def find_the_cheese(ingredients)# code an argument here
